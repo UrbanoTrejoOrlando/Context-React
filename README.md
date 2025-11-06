@@ -1,12 +1,30 @@
-# React + Vite
+# Context-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Compartir datos entre varios componentes con React
 
-Currently, two official plugins are available:
+## 🧩 Descripción  
+Este proyecto es una aplicación simple creada con **React** + **Vite**, que demuestra cómo utilizar el patrón de Contexto para compartir datos entre múltiples componentes sin necesidad de prop-drilling excesivo.  
+El objetivo es que puedas ver una estructura limpia, modular y escalable para gestión de estado ligero en React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Tecnologías utilizadas  
+- React (versión usada en el proyecto)  
+- Vite como bundler y entorno de desarrollo rápido  
+- ESLint para mantener consistencia de código  
+- JavaScript, HTML y CSS (puede ampliarse a TypeScript si lo deseas)  
+- Arquitectura de carpetas estándar (`src/`, `public/`, etc.)
 
-## Expanding the ESLint configuration
+## 🚀 Inicio rápido  
+Sigue los siguientes pasos para levantar el proyecto localmente:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# 1. Clona el repositorio
+git clone https://github.com/UrbanoTrejoOrlando/Context-React.git
+
+# 2. Entra al directorio del proyecto
+cd Context-React
+
+# 3. Instala las dependencias
+npm install
+
+# 4. Arranca el servidor de desarrollo
+npm run dev
